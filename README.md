@@ -7,6 +7,9 @@ Then dynamic algorithms such as the knapsack problem and greedy algorithms like 
 ## Note
 This project is not designed to be used separately. But to be pulled and used as an internal API
 
+## Classes
+Vec()
+
 ## Functions
 ### Constructing graphs
 adjacency_list() \
@@ -14,7 +17,10 @@ transpose()
 
 ### Graph traversal
 dfs_tree() \
-bfs_tree()
+bfs_tree() \
+prim() \
+dijkstra() \
+get_possible_queen_permutations_on_chess_board()
 
 ### Graphs 
 shortest_path() \
@@ -22,3 +28,15 @@ connected_components() \
 is_strongly_connected() \
 topological_ordering() \
 is_acyclic()
+
+### Vector geometry
+signed_area() \
+on_line_segment() \
+is_ccw () \
+do_lines_intersect()
+
+### Polygons
+in_convex_polygon() \
+in_simple_polygon() \
+gift_wrap() \
+graham_scan() 
