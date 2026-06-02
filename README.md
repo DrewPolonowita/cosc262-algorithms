@@ -44,4 +44,5 @@ gift_wrap() \
 graham_scan() 
 
 ### Searching Points
-closest_neighbor()
+closest_neighbor() \
+closest_pair()
