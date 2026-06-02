@@ -31,8 +31,8 @@ def prim(adjacency_list, v, trace=False):
     return parent
 
 def next_vertex(in_tree, distance):
-    lowest_v = -1
-    lowest_distance = math.inf
+    lowest_v = in_tree.index(False)
+    lowest_distance = distance[lowest_v]
 
     for v, (tree, curr_distance) in enumerate(zip(in_tree, distance)):
         if not tree:

@@ -8,7 +8,9 @@ Then dynamic algorithms such as the knapsack problem and greedy algorithms like 
 This project is not designed to be used separately. But to be pulled and used as an internal API
 
 ## Classes
-Vec()
+Vec() \
+KdTree() \
+QuadTree()
 
 ## Functions
 ### Constructing graphs
@@ -40,3 +42,6 @@ in_convex_polygon() \
 in_simple_polygon() \
 gift_wrap() \
 graham_scan() 
+
+### Searching Points
+closest_neighbor()
