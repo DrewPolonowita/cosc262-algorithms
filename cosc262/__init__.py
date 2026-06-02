@@ -14,3 +14,5 @@ from .computational_geometry.quad_tree import QuadTree
 from .computational_geometry.line_sweep import closest_pair
 
 from .recursion.recursion import fast_exponentiation, factorial, fast_fibonacci
+
+from .dynamic_programming.minimum_cost_path import grid_cost_top_down, grid_cost_bottom_up
