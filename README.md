@@ -46,3 +46,8 @@ graham_scan()
 ### Searching Points
 closest_neighbor() \
 closest_pair()
+
+### Recursive Algorithms
+fast_exponentiation() \
+factorial() \
+fast_fibonacci()
