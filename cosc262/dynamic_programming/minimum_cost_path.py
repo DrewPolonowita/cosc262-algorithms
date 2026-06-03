@@ -23,7 +23,7 @@ def grid_cost_top_down(grid):
 
         return table[row][col]
 
-    return min(cell_cost(m - 1, i) for i in range(n))
+    return min(cell_cost(m - 1, i) for i in range(n)), traceback_for_solution(table)
 
 
 def grid_cost_bottom_up(grid):
@@ -48,4 +48,30 @@ def grid_cost_bottom_up(grid):
 
             table[i][j] = grid[i][j] + min(possible_costs)
 
-    return min(table[m-1])
+    return min(table[m-1]), traceback_for_solution(table)
+
+
+def traceback_for_solution(table):
+    m = len(table)
+    n = len(table[0])
+
+    path = [-1 for _ in range(m)]
+    path[-1] = table[-1].index(min(table[-1]))
+    for i in range(m - 2, -1, -1):
+        prev_node = path[i + 1]
+
+        min_cost = table[i][prev_node]
+        min_index = prev_node
+
+        if prev_node - 1 >= 0:
+            if table[i][prev_node - 1] < min_cost:
+                min_cost = table[i][prev_node - 1]
+                min_index = prev_node - 1
+
+        if prev_node + 1 < n:
+            if table[i][prev_node + 1] < min_cost:
+                min_cost = table[i][prev_node + 1]
+                min_index = prev_node + 1
+
+        path[i] = min_index
+    return path

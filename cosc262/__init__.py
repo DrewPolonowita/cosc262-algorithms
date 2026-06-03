@@ -16,3 +16,6 @@ from .computational_geometry.line_sweep import closest_pair
 from .recursion.recursion import fast_exponentiation, factorial, fast_fibonacci
 
 from .dynamic_programming.minimum_cost_path import grid_cost_top_down, grid_cost_bottom_up
+from .dynamic_programming.coin_changing import coins_reqd_top_down, coins_reqd_bottom_up
+from .dynamic_programming.knapsack import Item, knapsack_top_down, knapsack_bottom_up
+from .dynamic_programming.longest_common_subsequence import longest_common_subsequence_top_down, longest_common_subsequence_bottom_up

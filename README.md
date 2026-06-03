@@ -10,7 +10,8 @@ This project is not designed to be used separately. But to be pulled and used as
 ## Classes
 Vec() \
 KdTree() \
-QuadTree()
+QuadTree() \
+Item()
 
 ## Functions
 ### Constructing graphs
@@ -51,3 +52,13 @@ closest_pair()
 fast_exponentiation() \
 factorial() \
 fast_fibonacci()
+
+### Dynamic Programming
+grid_cost_top_down() \
+grid_cost_top_down() \
+coins_reqd_top_down() \
+coins_reqd_bottom_up() \
+knapsack_top_down() \
+knapsack_bottom_up() \
+longest_common_subsequence_top_down() \
+longest_common_subsequence_bottom_up()
