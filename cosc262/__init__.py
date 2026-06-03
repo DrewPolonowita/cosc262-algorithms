@@ -19,3 +19,4 @@ from .dynamic_programming.minimum_cost_path import grid_cost_top_down, grid_cost
 from .dynamic_programming.coin_changing import coins_reqd_top_down, coins_reqd_bottom_up
 from .dynamic_programming.knapsack import Item, knapsack_top_down, knapsack_bottom_up
 from .dynamic_programming.longest_common_subsequence import longest_common_subsequence_top_down, longest_common_subsequence_bottom_up
+from .dynamic_programming.longest_increasing_subsequence import longest_increasing_subsequence_top_down, longest_increasing_subsequence_bottom_up
