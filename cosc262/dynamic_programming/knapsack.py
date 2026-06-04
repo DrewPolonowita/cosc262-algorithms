@@ -49,13 +49,16 @@ def knapsack_bottom_up(items, capacity):
     table = [[0 if i == 0 else -1 for j in range(capacity + 1)] for i in range(len(items)+1)]
 
     for i in range(1, len(items) + 1):
-        for j in range(1, capacity + 1):
+        for j in range(capacity + 1):
             if items[i-1].weight > j:
                 table[i][j] = table[i - 1][j]
             else:
                 table[i][j] = max([
                     table[i - 1][j], items[i-1].value + table[i - 1][j - items[i-1].weight]
                 ])
+
+    for row in table:
+        print(row)
     return table[-1][-1], traceback_for_solution(table, items)
 
 

@@ -61,4 +61,8 @@ coins_reqd_bottom_up() \
 knapsack_top_down() \
 knapsack_bottom_up() \
 longest_common_subsequence_top_down() \
-longest_common_subsequence_bottom_up()
+longest_common_subsequence_bottom_up() \
+longest_increasing_subsequence_top_down() \
+longest_increasing_subsequence_bottom_up() \
+edit_distance_top_down() \
+edit_distance_bottom_up()

@@ -6,7 +6,7 @@ def coins_reqd_top_down(value, coinage):
     :param coinage: the denominations of coins
     :return: the minimum number of coins required to make up a value, from some coinage
     """
-
+    coinage = sorted(coinage)
     table = [None] * (value + 1)
     table[0] = 0
     for c in coinage:
@@ -38,6 +38,7 @@ def coins_reqd_bottom_up(value, coinage):
         :param coinage: the denominations of coins
         :return: the minimum number of coins required to make up a value, from some coinage
         """
+    coinage = sorted(coinage)
     table = [None] * (value + 1)
     table[0] = 0
     for c in coinage:
