@@ -73,3 +73,7 @@ floyd_warshall_bottom_up()
 interval_scheduling() \
 coin_changing_greedy() \
 fractional_knapsack()
+
+### Counting Sort
+counting_sort() \
+radix_sort()
