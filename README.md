@@ -65,4 +65,11 @@ longest_common_subsequence_bottom_up() \
 longest_increasing_subsequence_top_down() \
 longest_increasing_subsequence_bottom_up() \
 edit_distance_top_down() \
-edit_distance_bottom_up()
+edit_distance_bottom_up() \
+floyd_warshall_top_down() \
+floyd_warshall_bottom_up()
+
+### Greedy Algorithms
+interval_scheduling() \
+coin_changing_greedy() \
+fractional_knapsack()

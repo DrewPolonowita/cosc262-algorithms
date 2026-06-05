@@ -20,5 +20,9 @@ from .dynamic_programming.coin_changing import coins_reqd_top_down, coins_reqd_b
 from .dynamic_programming.knapsack import Item, knapsack_top_down, knapsack_bottom_up
 from .dynamic_programming.longest_common_subsequence import longest_common_subsequence_top_down, longest_common_subsequence_bottom_up
 from .dynamic_programming.longest_increasing_subsequence import longest_increasing_subsequence_top_down, longest_increasing_subsequence_bottom_up
-from .dynamic_programming.edit_distance import edit_distance_top_down
-from .dynamic_programming.edit_distance import edit_distance_bottom_up
+from .dynamic_programming.edit_distance import edit_distance_top_down, edit_distance_bottom_up
+from.dynamic_programming.floyd_warshall import floyd_warshall_top_down, floyd_warshall_bottom_up
+
+from .greedy_algorithms.interval_scheduling import interval_scheduling
+from .greedy_algorithms.coin_changing import coin_changing_greedy
+from .greedy_algorithms.fractional_knapsack import fractional_knapsack
