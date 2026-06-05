@@ -11,7 +11,8 @@ This project is not designed to be used separately. But to be pulled and used as
 Vec() \
 KdTree() \
 QuadTree() \
-Item()
+Item() \
+HuffmanTree()
 
 ## Functions
 ### Constructing graphs

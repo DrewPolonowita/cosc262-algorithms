@@ -28,3 +28,5 @@ from .greedy_algorithms.coin_changing import coin_changing_greedy
 from .greedy_algorithms.fractional_knapsack import fractional_knapsack
 
 from .counting_sort.counting_sort import counting_sort, radix_sort
+
+from .huffman_encoding.huffman_tree import HuffmanTree
