@@ -1,6 +1,9 @@
 import heapq
 
 class HuffmanTree:
+    """
+    A tree representing a huffman tree, with creation, encode and decode methods
+    """
     def __init__(self, root=None):
         self.root = root
 
